@@ -1,2 +1,2 @@
 # scripts
-A repo full of useful bash scripts
+This repo is a collection of bash scripts
