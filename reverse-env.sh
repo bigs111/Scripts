@@ -4,6 +4,11 @@
 # this script it ment to be run on a Ubuntu VM
 
 sudo apt update && sudo apt upgrade -y
+sudo apt install build-essential -y
+sudo apt install git -y
+sudo apt install curl -y
+
+
 sudo apt install terminator -y
 sudo snap install sublime-text --classic
 sudo snap install powershell --classic
