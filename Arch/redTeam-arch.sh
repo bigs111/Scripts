@@ -13,3 +13,19 @@ chmod +x strap.sh
 sudo ./strap.sh
 sudo pacman -Syu
 sudo rm strap.sh
+
+# installing depends
+sudo pacman -S python-virtualenv
+sudo pacman -S python-pip
+sudo pacman -S git
+sudo pacman -S curl
+
+
+# installing tools
+sudo pacman -S nmap
+sudo pacman -S metasploit
+sudo pacman -S gobuster
+sudo pacman -S burpsuite
+sudo pacman -S hydra
+
+
